@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet Our Team - College Club</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg"></div>
+    
+    <!-- Header Section -->
+    <header class="header">
+        <h1 class="title">Meet Our Team</h1>
+        <p class="subtitle">The brilliant minds behind our club</p>
+    </header>
+
+    <!-- Floating Members Container -->
+    <div class="members-container" id="membersContainer">
+        <!-- Members will be dynamically added here -->
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <button class="close-btn" id="closeBtn">&times;</button>
+            <div class="modal-header">
+                <img src="" alt="" class="modal-image" id="modalImage">
+                <div class="modal-title-section">
+                    <h2 class="modal-name" id="modalName"></h2>
+                    <p class="modal-designation" id="modalDesignation"></p>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="modal-section">
+                    <h3>Roles & Responsibilities</h3>
+                    <p id="modalRoles"></p>
+                </div>
+                <div class="modal-section">
+                    <h3>About Me</h3>
+                    <p id="modalAbout"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor - Drone -->
+    <div class="cursor">
+        <div class="drone-body"></div>
+        <div class="propeller"></div>
+        <div class="propeller"></div>
+        <div class="propeller"></div>
+        <div class="propeller"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
