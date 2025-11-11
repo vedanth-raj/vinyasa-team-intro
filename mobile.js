@@ -164,7 +164,7 @@ const members = [
     {
         name: "Mohammed Areeb Ali Shivji",
         designation: "General Member",
-        image: "./images/Mohammed Areeb Ali Shivji.png",
+        image: "./images/Mohammed Areeb Ali Shivji.jpg",
         roles: "Assisting in technical projects and workshops.",
         about: "Enthusiastic about learning and applying new technologies."
     },
