@@ -32,13 +32,13 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     background-image: url('./images/vinyasa-removebg-preview.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: 0.2;
+    opacity: 0.3;
     z-index: 1;
     pointer-events: none;
 }
