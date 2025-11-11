@@ -155,6 +155,13 @@ const members = [
         about: "Passionate about designing circuits and electronic systems, engaging in 3D modeling and mechanical design, and exploring applications of AI,automation in robotics. Additionally interested in graphic design and automobile engineering as an enthusiast."
     },
     {
+        name: "Aditya Sinha",
+        designation: "General Member",
+        image: "./images/Aditya Sinha.jpg",
+        roles: "Supporting technical initiatives and community outreach.",
+        about: "Enthusiastic about innovation and collaborative projects."
+    },
+    {
         name: "Geetika Agrawal",
         designation: "General Member",
         image: "./images/Geetika Agrawal.jpg",
