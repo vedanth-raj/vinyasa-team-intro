@@ -311,12 +311,6 @@ body {
     animation: rotate-propeller 0.1s linear infinite;
 }
 
-.propeller:nth-child(4) {
-    top: 10px;
-    left: -5px;
-    animation: rotate-propeller 0.1s linear infinite reverse;
-}
-
 @keyframes rotate-propeller {
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
